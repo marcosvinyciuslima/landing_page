@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2? family=Justos&família=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #1b1819 16.62%, #8740ca 85.61%);
+}
+
+header.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho.imagem {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 36px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    font-style: normal;
+    color: #FFF2E7;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.conteudo {
+    margin-bottom: 46px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
